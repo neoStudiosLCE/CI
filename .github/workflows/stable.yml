@@ -21,6 +21,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
+          github-server-url: 'https://git.neolegacy.dev'
+          repository: 'neoStudiosLCE/neoLegacy'
           submodules: recursive
 
       - name: Setup MSVC
@@ -95,6 +97,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6
       with:
+        github-server-url: 'https://git.neolegacy.dev'
+        repository: 'neoStudiosLCE/neoLegacy'
         submodules: recursive
 
     - name: Setup MSVC
