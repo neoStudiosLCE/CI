@@ -24,6 +24,7 @@ jobs:
           github-server-url: 'https://git.neolegacy.dev'
           repository: 'neoStudiosLCE/neoLegacy'
           ref: main
+          token: ${{ secrets.NEOPAT }}
           submodules: recursive
 
       - name: Setup MSVC
@@ -101,6 +102,7 @@ jobs:
         github-server-url: 'https://git.neolegacy.dev'
         repository: 'neoStudiosLCE/neoLegacy'
         ref: main
+        token: ${{ secrets.NEOPAT }}
         submodules: recursive
 
     - name: Setup MSVC
