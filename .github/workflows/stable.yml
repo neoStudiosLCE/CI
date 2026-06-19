@@ -23,7 +23,7 @@ jobs:
         with:
           github-server-url: 'https://git.neolegacy.dev'
           repository: 'neoStudiosLCE/neoLegacy'
-          branch: main
+          ref: main
           submodules: recursive
 
       - name: Setup MSVC
@@ -100,7 +100,7 @@ jobs:
       with:
         github-server-url: 'https://git.neolegacy.dev'
         repository: 'neoStudiosLCE/neoLegacy'
-        branch: main
+        ref: main
         submodules: recursive
 
     - name: Setup MSVC
